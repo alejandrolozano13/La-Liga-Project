@@ -10,3 +10,6 @@ C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.exe
 C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.pdb
 C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.MenuPrincipal.resources
 C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.TelaDeOpcoes.resources
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.FormularioInfoTime.resources
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.TelaMenuTime.resources
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.FormularioJogador.resources

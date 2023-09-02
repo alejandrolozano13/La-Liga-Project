@@ -11,7 +11,7 @@ namespace LaLiga
         public Time() { }
         public int Id { get; set; }
         public string NomeDoTime { get; set; }
-        public int LigaQuePertence { get; set; }
         public DateTime AnoDeFundacaoDoTime { get; set; }
+        public string ImagemTime { get; set; }
     }
 }

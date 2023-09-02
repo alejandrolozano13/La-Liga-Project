@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TelaMenuJogador.cs">
+    <Compile Include="FormularioJogador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TelaMenuJogador.Designer.cs">
-      <DependentUpon>TelaMenuJogador.cs</DependentUpon>
+    <Compile Include="FormularioJogador.Designer.cs">
+      <DependentUpon>FormularioJogador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioInfoTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioInfoTime.Designer.cs">
+      <DependentUpon>FormularioInfoTime.cs</DependentUpon>
     </Compile>
     <Compile Include="TelaMenuTime.cs">
       <SubType>Form</SubType>
@@ -66,7 +72,6 @@
     </Compile>
     <Compile Include="Jogador.cs" />
     <Compile Include="Time.cs" />
-    <Compile Include="Liga.cs" />
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +80,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioInfoTime.resx">
+      <DependentUpon>FormularioInfoTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioJogador.resx">
+      <DependentUpon>FormularioJogador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="TelaDeOpcoes.resx">
       <DependentUpon>TelaDeOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaMenuTime.resx">
+      <DependentUpon>TelaMenuTime.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

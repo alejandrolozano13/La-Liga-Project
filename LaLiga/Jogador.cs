@@ -15,5 +15,6 @@ namespace LaLiga
         public string NacionalidadeDoJogador { get; set; }
         public int NumeroCamisaDoJogador { get; set; }
         public int TimeOndeJoga { get; set; }
+        public string ImagemJogador { get; set; }
     }
 }

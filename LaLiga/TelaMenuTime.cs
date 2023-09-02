@@ -21,8 +21,20 @@ namespace LaLiga
         public void DefinindoPadroesDaTela()
         {
             this.Text = "Menú - Time La Liga";
-            this.BackgroundImage = Properties.Resources.pagina_menu_opcoes;
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+        }
+
+        private void btnAoCadastrarTime(object sender, EventArgs e)
+        {
+            var formularioInfoTime = new FormularioInfoTime();
+            formularioInfoTime.ShowDialog();
+        }
+
+        private void btnAoVoltar(object sender, EventArgs e)
+        {
+            
+            var telaMenuOpcoes = new TelaDeOpcoes();
+            telaMenuOpcoes.ShowDialog();
+            this.Close();
         }
     }
 }

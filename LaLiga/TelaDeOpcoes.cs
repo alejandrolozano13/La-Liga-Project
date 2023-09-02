@@ -29,14 +29,12 @@ namespace LaLiga
         {
             var telaMenuTime = new TelaMenuTime();
             telaMenuTime.ShowDialog();
-            this.Close();
         }
 
         private void btnAdicionarJogador(object sender, EventArgs e)
         {
-            var telaMenuJogador = new TelaMenuJogador();
+            var telaMenuJogador = new FormularioJogador();
             telaMenuJogador.ShowDialog();
-            this.Close();
         }
     }
 }
