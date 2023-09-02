@@ -31,9 +31,6 @@ namespace LaLiga
 
         private void btnAoVoltar(object sender, EventArgs e)
         {
-            
-            var telaMenuOpcoes = new TelaDeOpcoes();
-            telaMenuOpcoes.ShowDialog();
             this.Close();
         }
     }
