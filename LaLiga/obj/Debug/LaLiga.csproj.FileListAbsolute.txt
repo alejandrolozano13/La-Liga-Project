@@ -1,0 +1,12 @@
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\bin\Debug\LaLiga.exe.config
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\bin\Debug\LaLiga.exe
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\bin\Debug\LaLiga.pdb
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.csproj.AssemblyReference.cache
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.Properties.Resources.resources
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.csproj.GenerateResource.cache
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.exe
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.pdb
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.MenuPrincipal.resources
+C:\Users\Alejandro\Desktop\Projeto pessoal\LaLiga\obj\Debug\LaLiga.TelaDeOpcoes.resources

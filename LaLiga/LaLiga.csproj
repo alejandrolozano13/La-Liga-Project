@@ -46,14 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="TelaMenuJogador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="TelaMenuJogador.Designer.cs">
+      <DependentUpon>TelaMenuJogador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaMenuTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaMenuTime.Designer.cs">
+      <DependentUpon>TelaMenuTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaDeOpcoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaDeOpcoes.Designer.cs">
+      <DependentUpon>TelaDeOpcoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogador.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Liga.cs" />
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +86,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TelaDeOpcoes.resx">
+      <DependentUpon>TelaDeOpcoes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +103,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\la liga wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10994255-la-liga-simbolo-logotipo-design-branco-e-preto-espanha-futebol-paises-europeus-ilustracao-de-times-de-futebol-gratis-vetor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Añadir un título %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
