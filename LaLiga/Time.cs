@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LaLiga
+namespace Dominio.Entidades
 {
-    internal class Time
+    public class Time
     {
-        public Time() { }
         public int Id { get; set; }
         public string NomeDoTime { get; set; }
         public DateTime AnoDeFundacaoDoTime { get; set; }

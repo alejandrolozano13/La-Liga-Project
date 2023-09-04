@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dominio.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,8 +27,11 @@ namespace LaLiga
             DesabilitandoPictureBox();
         }
 
+        private string imagemBase64;
+
         private void btnAoAdicionarImagem(object sender, EventArgs e)
         {
+            var time = new Time();
             OpenFileDialog abrirArquivo = new OpenFileDialog();
             abrirArquivo.Filter = "Arquivos de Imagem|*.jpg;*.jpeg;*.png;*.gif;*.bmp";
 
@@ -35,7 +39,7 @@ namespace LaLiga
             {
                 btnImagem.Image = new Bitmap(abrirArquivo.FileName);
                 btnImagem.SizeMode = PictureBoxSizeMode.Zoom;
-                string base64 = ConverterImagemParaBase64(abrirArquivo.FileName);
+                imagemBase64 = ConverterImagemParaBase64(abrirArquivo.FileName);
             }
         }
         
@@ -56,6 +60,16 @@ namespace LaLiga
         private void btnAoCancelar(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnAoSalvar(object sender, EventArgs e)
+        {
+            var time = new Time();
+            var repositorio = new RepositorioBanco();
+            time.NomeDoTime = txtNome.Text;
+            time.AnoDeFundacaoDoTime = dateTimePicker1.Value;
+            time.ImagemTime = imagemBase64;
+            repositorio.CriarNovoTime(time);
         }
     }
 }
